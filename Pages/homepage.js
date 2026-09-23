@@ -98,7 +98,6 @@ async enterDetails ()
     
     await this.enterName.fill('ashna')
     await this.enterEmail.fill('ash@gmail.com')
-     // await page.locator  ('#date').fill('09/23/2026')
      await this.viewSubmitButton.click()
     return this
 
